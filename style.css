@@ -1,0 +1,98 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.site-header {
+    background-color: #CC0000; /* NC State Red */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.site-header .logo {
+    height: 50px; /* Adjust as needed */
+    margin-bottom: 10px;
+}
+
+h1, h2 {
+    font-family: 'Roboto Slab', serif;
+}
+
+.container {
+    margin: 20px auto;
+    width: 90%;
+    max-width: 1200px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li a {
+    color: #CC0000; /* NC State Red */
+    text-decoration: none;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #EDEDED; /* Light gray */
+    color: #333; /* Dark gray */
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+.author-info p:first-child strong {
+    font-weight: bold;
+    font-size: 1.2em; /* Makes the author names larger */
+}
+
+ul li {
+    margin-bottom: 0.5rem;
+}
+
+ul li a {
+    transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Adjust link colors and underline style */
+ul li a {
+    color: #007bff; /* Bootstrap default blue */
+    text-decoration: underline;
+}
+
+/* Adds bullets back in a customized manner */
+ul li {
+    position: relative;
+    padding-left: 20px; /* Adjust based on preference */
+}
+
+ul li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 6px; /* Bullet size */
+    height: 6px; /* Bullet size */
+    background-color: #007bff; /* Bullet color */
+    border-radius: 50%;
+}
+
+/* Specific styling for Presentation Resources to differentiate from other lists */
+#presentation-resources ul li a {
+    color: #007bff; /* Making links blue */
+    text-decoration: underline; /* Ensures links are underlined */
+}
+
+#presentation-resources ul li a:hover {
+    color: #0056b3; /* Darker blue on hover */
+    text-decoration: none; /* Removes underline on hover for a change */
+}
+
